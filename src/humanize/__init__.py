@@ -46,7 +46,6 @@ if sys.version_info >= (3, 7):
             return __version__
         raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
 
-
 else:
     VERSION = __version__
 
